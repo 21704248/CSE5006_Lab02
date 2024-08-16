@@ -6,7 +6,7 @@ const app = express();
 
 // Specify how to respond to GET /
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    res.send('Hello world! ' + Date());
 })
 
 // Start listening for HTTP requests on port 3000
